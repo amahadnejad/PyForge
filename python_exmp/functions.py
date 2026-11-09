@@ -57,7 +57,38 @@ def calculate2():
     print(number)
 
 
-calculate2()
+# calculate2()
+
+# -------------------
+
+# Local VS Global
+name = 'Amir'
+
+
+def greet():
+    print(name)
+
+
+# greet()
+# print(name)
+
+# -> Practice
+score = 100
+
+
+def show_score():
+    print(score)
+
+
+show_score()
+print(score)
+
+
+
+
+
+
+
 
 
 
