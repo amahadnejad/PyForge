@@ -5,5 +5,14 @@ def show_info(name, age):
 
 person = ("Amir", 20)
 
-show_info(*person)
+# show_info(*person)
 
+# -------------------
+
+
+def calculate(a, b):
+    print(a + b)
+
+
+numbers = (50, 25)
+calculate(*numbers)
