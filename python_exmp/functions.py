@@ -80,9 +80,20 @@ def show_score():
     print(score)
 
 
-show_score()
-print(score)
+# show_score()
+# print(score)
 
+# global Keyword
+number = 50
+
+
+def change_number():
+    global number
+    number = 200
+
+
+# change_number()
+# print(number)
 
 
 
