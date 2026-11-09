@@ -83,6 +83,8 @@ def show_score():
 # show_score()
 # print(score)
 
+# -------------------
+
 # global Keyword
 number = 50
 
@@ -95,7 +97,19 @@ def change_number():
 # change_number()
 # print(number)
 
+# -------------------
+# Global Vs Local
 
+score = 100
+
+
+def show_score():
+    score = 50
+    print(score)
+
+
+show_score()
+print(score)
 
 
 
