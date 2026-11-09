@@ -45,11 +45,19 @@ user = {
     "city": "Mashhad"
 }
 
-show_user(**user)
+# show_user(**user)
 
 # -------------------
 
+# Scope of Variables
 
+
+def calculate2():
+    number = 10
+    print(number)
+
+
+calculate2()
 
 
 
