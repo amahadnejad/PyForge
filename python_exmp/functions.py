@@ -29,14 +29,25 @@ def show_info2(name, age, city):
 
 
 person2 = ["Reza", "27", "Tabriz"]
-show_info2(*person2)
+# show_info2(*person2)
+
+# -------------------
+
+# Dictionary Unpacking
+
+def show_user(username, email, city):
+    print(f"{username} - {email} - {city}")
 
 
+user = {
+    "username": "Hadi",
+    "email": "Hado@hadi.com",
+    "city": "Mashhad"
+}
 
+show_user(**user)
 
-
-
-
+# -------------------
 
 
 
