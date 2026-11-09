@@ -40,7 +40,7 @@ More topics will be added as the learning journey progresses.
 
 Clone the repository:
 
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/amahadnejad/PyForge
 
 Navigate to the project directory:
 
