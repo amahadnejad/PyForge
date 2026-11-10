@@ -24,13 +24,24 @@
 
 # else Structure
 
-try:
-    number = int(input("Enter a Number: "))
+# try:
+#     number = int(input("Enter a Number: "))
+#
+#
+# except:
+#     print("Invalid Number!")
+#
+# else:
+#     print("Your Number Is: ", number)
 
+# finally Structure
 
-except:
-    print("Invalid Number!")
-
-else:
-    print("Your Number Is: ", number)
-
+# try:
+#     number = int(input("Enter a Number: "))
+#     print(number)
+#
+# except ValueError:
+#     print("Invalid Number!")
+#
+# finally:
+#     print("Program Finished!")
