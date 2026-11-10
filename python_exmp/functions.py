@@ -108,12 +108,49 @@ def show_score():
     print(score)
 
 
-show_score()
+# show_score()
+# print(score)
+
+# -------------------
+# Scope of Variables
+
+number = 10
+
+
+def outer():
+    number = 20
+
+    def inner():
+        number = 30
+        print(number)
+
+    inner()
+
+
+# outer()
+
+# Let's Try Global
+
+number = 10
+
+
+def change_number():
+    global number
+    number = 50
+
+
+# change_number()
+# print(number)
+
+# Practice!
+score = 100
+
+
+def update_score():
+    global score
+    score = 250
+
+update_score()
 print(score)
-
-
-
-
-
 
 
