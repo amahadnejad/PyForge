@@ -48,10 +48,21 @@
 
 # raise
 
-score = 10
+# score = 10
+#
+# if score < 0:
+#     raise ValueError("Score Cannot Be Negative!")
+# else:
+#     print(score)
 
-if score < 0:
-    raise ValueError("Score Cannot Be Negative!")
-else:
-    print(score)
+# -- Custom Exceptions
+# class NegativeAgeError(Exception):
+#     pass
+#
+#
+# age = -2
+#
+# if age < 0:
+#     raise NegativeAgeError("Age Cannot Be Negative!")
+#
 
