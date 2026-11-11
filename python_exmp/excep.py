@@ -98,27 +98,45 @@
 
 # ----
 
-try:
-    number = int(input("Enter a Number: "))
-    result = 100 / number
+# try:
+#     number = int(input("Enter a Number: "))
+#     result = 100 / number
+#
+# except ValueError:
+#     print("Invalid Input!")
+#
+# except ZeroDivisionError:
+#     print("Cannot Divide By Zero!")
+#
+# else:
+#     print("Result: ", result)
+#
+# finally:
+#     print("Program Finished!")
 
-except ValueError:
-    print("Invalid Input!")
+# ----
 
-except ZeroDivisionError:
-    print("Cannot Divide By Zero!")
+# def divide(a, b):
+#     try:
+#         return a / b
+#     except ZeroDivisionError:
+#         return "Cannot Divide By Zero!"
+#
+#
+# print(divide(10, 2))
+# print(divide(10, 0))
 
-else:
-    print("Result: ", result)
+# ----
 
-finally:
-    print("Program Finished!")
-
-
-
-
-
+def calculate_age(age):
+    try:
+        if age < 0:
+            raise ValueError("Age Cannot Be Negative!")
+    except ValueError as error:
+        return error
 
 
+
+print(calculate_age(25))
 
 
