@@ -45,3 +45,13 @@
 #
 # finally:
 #     print("Program Finished!")
+
+# raise
+
+score = 10
+
+if score < 0:
+    raise ValueError("Score Cannot Be Negative!")
+else:
+    print(score)
+
