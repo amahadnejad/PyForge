@@ -83,16 +83,42 @@
 
 # ----
 
+# try:
+#     number = int(input("Enter a Number: "))
+#     result = 100 / number
+#
+# except ValueError:
+#     print("Please Enter a Valid Number!")
+#
+# except ZeroDivisionError:
+#     print("Cannot Divide By Zero!")
+#
+# else:
+#     print(result)
+
+# ----
+
 try:
     number = int(input("Enter a Number: "))
     result = 100 / number
 
 except ValueError:
-    print("Please Enter a Valid Number!")
+    print("Invalid Input!")
 
 except ZeroDivisionError:
     print("Cannot Divide By Zero!")
 
 else:
-    print(result)
+    print("Result: ", result)
+
+finally:
+    print("Program Finished!")
+
+
+
+
+
+
+
+
 
