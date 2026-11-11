@@ -68,16 +68,31 @@
 # ----
 
 
-class InvalidScoreError(Exception):
-    pass
+# class InvalidScoreError(Exception):
+#     pass
+#
+#
+# score = -10
+#
+# try:
+#     if score < 0:
+#         raise InvalidScoreError("Score Cannot Be Negative!")
+#
+# except InvalidScoreError as error:
+#     print(error)
 
-
-score = -10
+# ----
 
 try:
-    if score < 0:
-        raise InvalidScoreError("Score Cannot Be Negative!")
+    number = int(input("Enter a Number: "))
+    result = 100 / number
 
-except InvalidScoreError as error:
-    print(error)
+except ValueError:
+    print("Please Enter a Valid Number!")
+
+except ZeroDivisionError:
+    print("Cannot Divide By Zero!")
+
+else:
+    print(result)
 
