@@ -64,5 +64,20 @@
 #
 # if age < 0:
 #     raise NegativeAgeError("Age Cannot Be Negative!")
-#
+
+# ----
+
+
+class InvalidScoreError(Exception):
+    pass
+
+
+score = -10
+
+try:
+    if score < 0:
+        raise InvalidScoreError("Score Cannot Be Negative!")
+
+except InvalidScoreError as error:
+    print(error)
 
