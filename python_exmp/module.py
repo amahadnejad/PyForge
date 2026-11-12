@@ -1,5 +1,5 @@
-import modules.greeting
+from modules import library
 
 name = "amir"
 
-print(modules.greeting.say_hello(name))
+print(library.say_hello(name))
