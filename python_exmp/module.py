@@ -16,3 +16,12 @@ from modules import library
 
 # ----
 
+# Alias
+
+# import modules.library as lib
+#
+# print(lib.add(20, 30))
+
+import modules.library as calc
+
+print(calc.add(20, 30))
