@@ -41,6 +41,21 @@ from modules.library import *
 # print(add(20, 30))
 # print(say_hello("Amir"))
 
+# ----
+
+
+# from modules import add, multiply
+#
+# print(add(20, 30))
+# print(multiply(10, 6))
+
+# ----
+
+
+
+
+
+
 
 
 
