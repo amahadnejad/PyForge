@@ -28,13 +28,18 @@ from modules import library
 
 # ----
 
-from modules.library import add, say_hello
+# from modules.library import add, say_hello
+#
+# print(add(20, 30))
+# print(say_hello("Amir"))
 
-print(add(20, 30))
-print(say_hello("Amir"))
 
+# ----
+# Import All
+from modules.library import *
 
-
+# print(add(20, 30))
+# print(say_hello("Amir"))
 
 
 
