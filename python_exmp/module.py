@@ -22,6 +22,21 @@ from modules import library
 #
 # print(lib.add(20, 30))
 
-import modules.library as calc
+# import modules.library as calc
+#
+# print(calc.add(20, 30))
 
-print(calc.add(20, 30))
+# ----
+
+from modules.library import add, say_hello
+
+print(add(20, 30))
+print(say_hello("Amir"))
+
+
+
+
+
+
+
+
