@@ -89,6 +89,22 @@
 
 # ----
 
+import json
+
+user = {"name": 'Amir', 'age': 25}
+
+result = json.dumps(user)
+
+print(result)
+
+
+
+
+
+
+
+
+
 
 
 
