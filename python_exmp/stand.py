@@ -30,14 +30,20 @@
 
 # ----
 
-import os
+# import os
+#
+# current_directory = os.getcwd()
+#
+# print(current_directory)
 
-current_directory = os.getcwd()
+# ----
 
-print(current_directory)
+# Math
+import math
 
+result = math.sqrt(144)
 
-
+print(result)
 
 
 
