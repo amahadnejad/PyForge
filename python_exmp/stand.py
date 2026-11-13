@@ -121,14 +121,25 @@
 
 # String
 
-import string
+# import string
 
-letters = string.ascii_letters
+# letters = string.ascii_letters
 
-print(letters)
+# print(letters)
 
+# ----
 
+# Hashlib
 
+# import hashlib
+
+# text = 'Python'
+
+# result = hashlib.sha256(text.encode())
+
+# print(result.hexdigest())
+
+# ----
 
 
 
