@@ -59,8 +59,29 @@
 
 # sys
 
-import sys
+# import sys
 
-version = sys.version
+# version = sys.version
 
-print(version)
+# print(version)
+
+# ----
+
+# collections
+
+from collections import Counter
+
+fruits = ['apple', 'banana', 'apple', 'orange', 'orange', 'banana', 'apple']
+
+result = Counter(fruits)
+
+print(result)
+
+
+
+
+
+
+
+
+
