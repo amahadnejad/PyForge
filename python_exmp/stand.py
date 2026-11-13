@@ -18,10 +18,27 @@
 
 # print(number)
 
+# ----
+
 # Random
 
-import datetime
+# import datetime
 
-today = datetime.datetime.now()
+# today = datetime.datetime.now()
 
-print(today)
+# print(today)
+
+# ----
+
+import os
+
+current_directory = os.getcwd()
+
+print(current_directory)
+
+
+
+
+
+
+
