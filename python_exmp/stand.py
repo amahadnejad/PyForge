@@ -39,12 +39,22 @@
 # ----
 
 # Math
-import math
+# import math
+#
+# result = math.sqrt(144)
+#
+# print(result)
 
-result = math.sqrt(144)
+# ----
 
-print(result)
+# Platform
 
+# import platform
 
+# system = platform.system()
+
+# print(system)
+
+# ----
 
 
