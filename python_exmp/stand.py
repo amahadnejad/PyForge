@@ -89,15 +89,23 @@
 
 # ----
 
-import json
+# import json
 
-user = {"name": 'Amir', 'age': 25}
+# user = {"name": 'Amir', 'age': 25}
 
-result = json.dumps(user)
+# result = json.dumps(user)
+
+# print(result)
+
+# ----
+
+import statistics
+
+numbers = [10, 20, 30, 40, 50]
+
+result = statistics.mean(numbers)
 
 print(result)
-
-
 
 
 
