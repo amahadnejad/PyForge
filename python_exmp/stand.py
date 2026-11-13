@@ -99,15 +99,23 @@
 
 # ----
 
-import statistics
+# import statistics
 
-numbers = [10, 20, 30, 40, 50]
+# numbers = [10, 20, 30, 40, 50]
 
-result = statistics.mean(numbers)
+# result = statistics.mean(numbers)
 
-print(result)
+# print(result)
 
+# ----
 
+import time
+
+print('Hello')
+
+time.sleep(2)
+
+print('Python')
 
 
 
