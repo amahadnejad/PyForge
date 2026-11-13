@@ -109,15 +109,23 @@
 
 # ----
 
-import time
+# import time
 
-print('Hello')
+# print('Hello')
 
-time.sleep(2)
+# time.sleep(2)
 
-print('Python')
+# print('Python')
 
+# ----
 
+# String
+
+import string
+
+letters = string.ascii_letters
+
+print(letters)
 
 
 
