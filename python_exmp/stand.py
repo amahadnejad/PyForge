@@ -69,16 +69,25 @@
 
 # collections
 
-from collections import Counter
+# from collections import Counter
 
-fruits = ['apple', 'banana', 'apple', 'orange', 'orange', 'banana', 'apple']
+# fruits = ['apple', 'banana', 'apple', 'orange', 'orange', 'banana', 'apple']
 
-result = Counter(fruits)
+# result = Counter(fruits)
 
-print(result)
+# print(result)
 
+# ----
 
+# pathlib
 
+# from pathlib import Path
+
+# current_path = Path.cwd()
+
+# print(current_path)
+
+# ----
 
 
 
