@@ -12,8 +12,16 @@
 
 # Random
 
-import random
+# import random
 
-number = random.randint(1, 100)
+# number = random.randint(1, 100)
 
-print(number)
+# print(number)
+
+# Random
+
+import datetime
+
+today = datetime.datetime.now()
+
+print(today)
