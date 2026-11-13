@@ -141,6 +141,16 @@
 
 # ----
 
+import re
+
+text = "My Phone Number Is 12345"
+
+result = re.findall(r"\d+", text)
+
+print(result)
+
+
+
 
 
 
