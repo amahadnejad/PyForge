@@ -138,12 +138,25 @@ class Book:
         print(f'{self.title} by {self.author}')
 
 
-book1 = Book('The Stranger', 'Albert Camus')
+# book1 = Book('The Stranger', 'Albert Camus')
+# book1.show_info()
 
-book1.show_info()
+# ----
+
+class Player:
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+
+    def add_score(self):
+        self.score += 1
+        print(f"1 Score Granted! scores:{self.score}")
 
 
+# player1 = Player('Mac', 25)
+# player1.add_score()
 
+# ----
 
 
 
