@@ -124,13 +124,23 @@ class Student:
         self.age = age
 
 
-student1 = Student("Brad", 25)
-print(f"{student1.name} : {student1.age}")
+# student1 = Student("Brad", 25)
+# print(f"{student1.name} : {student1.age}")
+
+# ----
+
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    def show_info(self):
+        print(f'{self.title} by {self.author}')
 
 
+book1 = Book('The Stranger', 'Albert Camus')
 
-
-
+book1.show_info()
 
 
 
