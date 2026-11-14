@@ -113,11 +113,19 @@ class Car:
         self.brand = brand
 
 
-car1 = Car('BMW')
-print(car1.brand)
+# car1 = Car('BMW')
+# print(car1.brand)
+
+# ----
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
 
-
+student1 = Student("Brad", 25)
+print(f"{student1.name} : {student1.age}")
 
 
 
