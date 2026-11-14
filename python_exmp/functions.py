@@ -1,156 +1,21 @@
-# Tuple Unpacking
+# 💫 About Me:
+🔭 Working on Python & Django projects<br>🌱 Learning advanced Python and backend development<br>💻 Building real-world applications<br>🎯 Working towards becoming a professional Backend Developer
 
-def show_info(name, age):
-    print(name)
-    print(age)
 
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/amirahadnejad) 
 
-person = ("Amir", 20)
+# 💻 Tech Stack:
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=amahadnejad&theme=ambient_gradient&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=amahadnejad&theme=ambient_gradient&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=amahadnejad&theme=ambient_gradient&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-# show_info(*person)
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-# -------------------
+---
+[![](https://komarev.com/ghpvc/?username=amahadnejad&icon=0&color=0)](https://visitcount.itsvg.in)
 
-
-def calculate(a, b):
-    print(a + b)
-
-
-numbers = (50, 25)
-# calculate(*numbers)
-
-# -------------------
-
-# List Unpacking
-
-
-def show_info2(name, age, city):
-    print(f"{name} - {age} - {city}")
-
-
-person2 = ["Reza", "27", "Tabriz"]
-# show_info2(*person2)
-
-# -------------------
-
-# Dictionary Unpacking
-
-def show_user(username, email, city):
-    print(f"{username} - {email} - {city}")
-
-
-user = {
-    "username": "Hadi",
-    "email": "Hado@hadi.com",
-    "city": "Mashhad"
-}
-
-# show_user(**user)
-
-# -------------------
-
-# Scope of Variables
-
-
-def calculate2():
-    number = 10
-    print(number)
-
-
-# calculate2()
-
-# -------------------
-
-# Local VS Global
-name = 'Amir'
-
-
-def greet():
-    print(name)
-
-
-# greet()
-# print(name)
-
-# -> Practice
-score = 100
-
-
-def show_score():
-    print(score)
-
-
-# show_score()
-# print(score)
-
-# -------------------
-
-# global Keyword
-number = 50
-
-
-def change_number():
-    global number
-    number = 200
-
-
-# change_number()
-# print(number)
-
-# -------------------
-# Global Vs Local
-
-score = 100
-
-
-def show_score():
-    score = 50
-    print(score)
-
-
-# show_score()
-# print(score)
-
-# -------------------
-# Scope of Variables
-
-number = 10
-
-
-def outer():
-    number = 20
-
-    def inner():
-        number = 30
-        print(number)
-
-    inner()
-
-
-# outer()
-
-# Let's Try Global
-
-number = 10
-
-
-def change_number():
-    global number
-    number = 50
-
-
-# change_number()
-# print(number)
-
-# Practice!
-score = 100
-
-
-def update_score():
-    global score
-    score = 250
-
-update_score()
-print(score)
-
-
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
