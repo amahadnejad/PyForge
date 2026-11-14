@@ -84,21 +84,37 @@ class Dog:
 # dog1 = Dog()
 # dog1.name = "Max"
 # dog1.bark()
-#
+
 
 class Person:
     def introduce(self):
         print(f"Hi I'm {self.name}")
 
 
-person1 = Person()
-person1.name = "John"
-person1.introduce()
+# person1 = Person()
+# person1.name = "John"
+# person1.introduce()
 
 
+# ----
+
+class Person:
+    def __init__(self, name):
+        self.name = name
 
 
+# person1 = Person("Amir")
+# print(person1.name)
 
+# ----
+
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+
+
+car1 = Car('BMW')
+print(car1.brand)
 
 
 
