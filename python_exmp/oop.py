@@ -38,22 +38,42 @@
 
 # ----
 
+# class Car:
+#     brand = "Benz"
+
+
+# car1 = Car()
+# car2 = Car()
+
+# car1.brand = "Toyota"
+# car2.brand = "Porsche"
+
+# print(car1.brand)
+# print(car2.brand)
+
+# ----
+
 class Car:
     brand = "Benz"
 
-
-car1 = Car()
-car2 = Car()
-
-car1.brand = "Toyota"
-car2.brand = "Porsche"
-
-print(car1.brand)
-print(car2.brand)
+    def start(self):
+        print("Car Started!")
 
 
+# car1 = Car()
+
+# car1.start()
+
+# ----
+
+class Dog:
+    def bark(self):
+        print("Woof Woof!")
 
 
+dog1 = Dog()
+
+dog1.bark()
 
 
 
