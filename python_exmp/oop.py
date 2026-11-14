@@ -71,15 +71,29 @@ class Dog:
         print("Woof Woof!")
 
 
-dog1 = Dog()
+# dog1 = Dog()
+# dog1.bark()
 
-dog1.bark()
+# ----
+
+# class Dog:
+#     def bark(self):
+#         print(f"{self.name} Says Woof!")
+#
+#
+# dog1 = Dog()
+# dog1.name = "Max"
+# dog1.bark()
+#
+
+class Person:
+    def introduce(self):
+        print(f"Hi I'm {self.name}")
 
 
-
-
-
-
+person1 = Person()
+person1.name = "John"
+person1.introduce()
 
 
 
