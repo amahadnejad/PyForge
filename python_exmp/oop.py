@@ -26,6 +26,17 @@
 
 # ----
 
+# class Car:
+#     brand = "Benz"
+
+
+# car1 = Car()
+# car2 = Car()
+
+# print(car1.brand)
+# print(car2.brand)
+
+# ----
 
 class Car:
     brand = "Benz"
@@ -34,8 +45,18 @@ class Car:
 car1 = Car()
 car2 = Car()
 
+car1.brand = "Toyota"
+car2.brand = "Porsche"
+
 print(car1.brand)
 print(car2.brand)
+
+
+
+
+
+
+
 
 
 
