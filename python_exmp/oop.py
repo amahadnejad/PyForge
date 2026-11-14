@@ -166,9 +166,26 @@ class Car:
         self.brand = new_brand
 
 
-car1 = Car('BMW')
-car2 = Car('Benz')
+# car1 = Car('BMW')
+# car2 = Car('Benz')
 
-print(car1.brand)
-print(car2.brand)
+# print(car1.brand)
+# print(car2.brand)
+
+# ----
+
+class Employee:
+    company = 'google'
+
+    def __init__(self, name):
+        self.name = name
+
+
+emp1 = Employee('John')
+emp2 = Employee('Max')
+
+print(f'{emp1.name} at {emp1.company}')
+print(f'{emp2.name} at {emp2.company}')
+
+
 
