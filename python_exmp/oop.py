@@ -13,16 +13,35 @@
 # print(my_car.color)
 
 # ----
+#
+# class Student:
+#     name = "Amir"
+#     age = "25"
 
-class Student:
-    name = "Amir"
-    age = "25"
+
+# student1 = Student()
+
+# print(student1.name)
+# print(student1.age)
+
+# ----
 
 
-student1 = Student()
+class Car:
+    brand = "Benz"
 
-print(student1.name)
-print(student1.age)
+
+car1 = Car()
+car2 = Car()
+
+print(car1.brand)
+print(car2.brand)
+
+
+
+
+
+
 
 
 
