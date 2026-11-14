@@ -158,5 +158,17 @@ class Player:
 
 # ----
 
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
 
+    def change_brand(self, new_brand):
+        self.brand = new_brand
+
+
+car1 = Car('BMW')
+car2 = Car('Benz')
+
+print(car1.brand)
+print(car2.brand)
 
