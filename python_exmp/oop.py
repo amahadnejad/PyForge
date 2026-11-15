@@ -238,14 +238,24 @@ class Book:
         print(Book.category)
 
 
-book1 = Book()
-book2 = Book()
+# book1 = Book()
+# book2 = Book()
 
-book1.show_category()
-book2.show_category()
+# book1.show_category()
+# book2.show_category()
+
+# ----
 
 
+class University:
+    name = 'Oxford'
 
+    @classmethod
+    def show_name(cls):
+        print(cls.name)
+
+
+University.show_name()
 
 
 
