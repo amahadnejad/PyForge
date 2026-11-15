@@ -181,11 +181,23 @@ class Employee:
         self.name = name
 
 
-emp1 = Employee('John')
-emp2 = Employee('Max')
+# emp1 = Employee('John')
+# emp2 = Employee('Max')
 
-print(f'{emp1.name} at {emp1.company}')
-print(f'{emp2.name} at {emp2.company}')
+# print(f'{emp1.name} at {emp1.company}')
+# print(f'{emp2.name} at {emp2.company}')
 
+# ----
+
+class Car:
+    brand = "Toyota"
+
+
+car1 = Car()
+car2 = Car()
+
+car1.brand = 'BMW'
+print(car1.brand)
+print(car2.brand)
 
 
