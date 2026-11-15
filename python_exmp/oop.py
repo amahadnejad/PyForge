@@ -206,16 +206,28 @@ class Phone:
     brand = 'Samsung'
 
 
-phone1 = Phone()
-phone2 = Phone()
+# phone1 = Phone()
+# phone2 = Phone()
 
-Phone.brand = "Apple"
+# Phone.brand = "Apple"
 
-print(phone1.brand)
-print(phone2.brand)
+# print(phone1.brand)
+# print(phone2.brand)
+
+# ----
+
+class Student:
+    school = "Python Academy"
+
+    def show_school(self):
+        print(self.school)
 
 
+stu1 = Student()
+stu2 = Student()
 
+stu1.show_school()
+stu2.show_school()
 
 
 
