@@ -193,11 +193,35 @@ class Car:
     brand = "Toyota"
 
 
-car1 = Car()
-car2 = Car()
+# car1 = Car()
+# car2 = Car()
 
-car1.brand = 'BMW'
-print(car1.brand)
-print(car2.brand)
+# car1.brand = 'BMW'
+# print(car1.brand)
+# print(car2.brand)
+
+# ----
+
+class Phone:
+    brand = 'Samsung'
+
+
+phone1 = Phone()
+phone2 = Phone()
+
+Phone.brand = "Apple"
+
+print(phone1.brand)
+print(phone2.brand)
+
+
+
+
+
+
+
+
+
+
 
 
