@@ -223,12 +223,26 @@ class Student:
         print(self.school)
 
 
-stu1 = Student()
-stu2 = Student()
+# stu1 = Student()
+# stu2 = Student()
 
-stu1.show_school()
-stu2.show_school()
+# stu1.show_school()
+# stu2.show_school()
 
+# ----
+
+class Book:
+    category = 'Programming'
+
+    def show_category(self):
+        print(Book.category)
+
+
+book1 = Book()
+book2 = Book()
+
+book1.show_category()
+book2.show_category()
 
 
 
