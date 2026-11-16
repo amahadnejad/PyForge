@@ -284,9 +284,30 @@ class MathHelper:
         return a * b
 
 
-result = MathHelper.multiply(10, 20)
-print(result)
-print(type(result))
+# result = MathHelper.multiply(10, 20)
+# print(result)
+# print(type(result))
+
+# ----
+
+class Book:
+    def __init__(self, title):
+        self.title = title
+        print("Book Object Created!")
+
+    def __del__(self):
+        print("Book Object Deleted!")
+
+    def show_title(self):
+        print(f"Book: {self.title}")
+
+
+# book1 = Book('Target')
+# book1.show_title()
+# del book1
+#
+#
+#
 
 
 
