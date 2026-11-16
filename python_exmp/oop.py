@@ -305,11 +305,23 @@ class Book:
 # book1 = Book('Target')
 # book1.show_title()
 # del book1
-#
-#
-#
 
 
+# ----
+
+class Person:
+    def introduce(self):
+        print("I Am A Person!")
+
+
+class Student(Person):
+    def study(self):
+        print('I Am Studying!')
+
+
+st1 = Student()
+st1.introduce()
+st1.study()
 
 
 
