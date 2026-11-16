@@ -395,14 +395,30 @@ class Child(Father, Mother):
     pass
 
 
-child = Child()
-child.show()
+# child = Child()
+# child.show()
 
-print(Child.__mro__)
+# print(Child.__mro__)
+
+# ----
+
+# Polymorphism
+
+class Dog:
+    def sound(self):
+        print('Woof!')
 
 
+class Cat:
+    def sound(self):
+        print("Meow!")
 
+# dog = Dog()
+# cat = Cat()
 
+# dog.sound()
+# cat.sound()
 
+# ----
 
 
