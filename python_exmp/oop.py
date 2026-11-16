@@ -335,11 +335,27 @@ class Student(Person):
         print("I am A Student!")
 
 
-p1 = Person()
-p1.introduce()
+# p1 = Person()
+# p1.introduce()
 
-s1 = Student()
-s1.introduce()
+# s1 = Student()
+# s1.introduce()
+
+# ----
+
+class Animal:
+    def sound(self):
+        print("Animal Makes a Sound!")
+
+
+class Dog(Animal):
+    def sound(self):
+        super().sound()
+        print("Dogs Says Woof!")
+
+
+dog = Dog()
+dog.sound()
 
 
 
