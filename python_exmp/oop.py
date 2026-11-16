@@ -354,24 +354,25 @@ class Dog(Animal):
         print("Dogs Says Woof!")
 
 
-dog = Dog()
-dog.sound()
+# dog = Dog()
+# dog.sound()
+
+# ----
+
+class Father:
+    def skills(self):
+        print("Father: Driving")
 
 
+class Mother:
+    def talent(self):
+        print('Mother: Painting')
 
 
+class Child(Father, Mother):
+    pass
 
+child = Child()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+child.skills()
+child.talent()
