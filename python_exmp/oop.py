@@ -271,9 +271,37 @@ class Employee:
         print(f"Company: {cls.company}")
 
 
-emp1 = Employee('Amir')
-emp1.show_name()
-emp1.show_company()
+# emp1 = Employee('Amir')
+# emp1.show_name()
+# emp1.show_company()
+
+# ----
+
+class MathHelper:
+
+    @staticmethod
+    def multiply(a, b):
+        return a * b
+
+
+result = MathHelper.multiply(10, 20)
+print(result)
+print(type(result))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
