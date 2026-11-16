@@ -247,15 +247,41 @@ class Book:
 # ----
 
 
-class University:
-    name = 'Oxford'
+# class University:
+#     name = 'Oxford'
+#
+#     @classmethod
+#     def show_name(cls):
+#         print(cls.name)
 
-    @classmethod
-    def show_name(cls):
-        print(cls.name)
+# University.show_name()
+
+# ----
+
+class Employee:
+    company = 'Google'
+
+    def __init__(self, name):
+        self.name = name
+
+    def show_name(self):
+        print(f"Employee: {self.name}")
+
+    def show_company(cls):
+        print(f"Company: {cls.company}")
 
 
-University.show_name()
+emp1 = Employee('Amir')
+emp1.show_name()
+emp1.show_company()
+
+
+
+
+
+
+
+
 
 
 
