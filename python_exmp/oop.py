@@ -422,3 +422,25 @@ class Cat:
 # ----
 
 
+class Animal:
+    def sound(self):
+        print('Animal Makes a Sound!')
+
+
+class Dog(Animal):
+    def sound(self):
+        print("Dog Says Woof!")
+
+
+class Cat(Animal):
+    def sound(self):
+        print('Cat Says Meow!')
+
+
+dog = Dog()
+cat = Cat()
+
+dog.sound()
+cat.sound()
+
+
