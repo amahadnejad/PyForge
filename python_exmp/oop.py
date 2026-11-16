@@ -319,16 +319,27 @@ class Student(Person):
         print('I Am Studying!')
 
 
-st1 = Student()
-st1.introduce()
-st1.study()
+# st1 = Student()
+# st1.introduce()
+# st1.study()
+
+# ----
+
+class Person:
+    def introduce(self):
+        print("I am A Person")
 
 
+class Student(Person):
+    def introduce(self):
+        print("I am A Student!")
 
 
+p1 = Person()
+p1.introduce()
 
-
-
+s1 = Student()
+s1.introduce()
 
 
 
