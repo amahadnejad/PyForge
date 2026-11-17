@@ -662,7 +662,30 @@ class Library:
 
 # ----
 
+class Number:
+    def __init__(self, value):
+        self.value = value
+
+    def __add__(self, other):
+        return self.value + other.value
 
 
+# num1 = Number(10)
+# num2 = Number(20)
+# old --> print(num1 + num2)
+# New Way
+# print(num1.__add__(num2))
+
+# ----
+
+class Product:
+    def __init__(self, price):
+        self.price = price
+
+    def __add__(self, other):
+        return self.price + other.price
 
 
+price1 = 100
+price2 = 250
+print(price1.__add__(price2))
