@@ -521,8 +521,52 @@ class Rectangle(Shape):
         print(self.width * self.height)
 
 
-rectangle = Rectangle(5, 4)
-rectangle.area()
+# rectangle = Rectangle(5, 4)
+# rectangle.area()
+
+# ----
+# Composition
+
+class Engine:
+
+    def start(self):
+        print("Engine Started!")
+
+
+class Car:
+
+    def __init__(self):
+        self.engine = Engine()
+
+    def start_car(self):
+        self.engine.start()
+        print('Car Started')
+
+
+# car = Car()
+# car.start_car()
+
+# ----
+
+class Battery:
+    def charge(self):
+        print("Battery Is Charging!")
+
+
+class Phone:
+    def __init__(self):
+        self.battery = Battery()
+
+    def charge_battery(self):
+        self.battery.charge()
+        print("battery Is Charging.")
+
+
+phone = Phone()
+phone.charge_battery()
+
+
+
 
 
 
