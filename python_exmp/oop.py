@@ -437,11 +437,11 @@ class Cat(Animal):
         print('Cat Says Meow!')
 
 
-dog = Dog()
-cat = Cat()
+# dog = Dog()
+# cat = Cat()
 
-dog.sound()
-cat.sound()
+# dog.sound()
+# cat.sound()
 
 # ----
 
@@ -461,19 +461,68 @@ class Cow:
         print('Cow Says Moo!')
 
 
-animals = [Dog(), Cat(), Cow()]
+# animals = [Dog(), Cat(), Cow()]
 
-for animal in animals:
-    animal.sound()
-
-
+# for animal in animals:
+#     animal.sound()
 
 
+# ----
+
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
 
 
+    @abstractmethod
+    def make_sound(self):
+        pass
 
 
+class Dog(Animal):
 
+    def make_sound(self):
+        print('Woof!')
+
+
+class Cat(Animal):
+
+    def make_sound(self):
+        print('Meow!')
+
+
+# dog = Dog()
+# cat = Cat()
+
+# dog.make_sound()
+# cat.make_sound()
+
+# ----
+
+from abc import ABC, abstractmethod
+
+
+class Shape(ABC):
+
+
+    @abstractmethod
+    def area(self):
+        pass
+
+
+class Rectangle(Shape):
+
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+
+    def area(self):
+        print(self.width * self.height)
+
+
+rectangle = Rectangle(5, 4)
+rectangle.area()
 
 
 
