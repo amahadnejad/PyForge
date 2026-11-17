@@ -562,8 +562,59 @@ class Phone:
         print("battery Is Charging.")
 
 
-phone = Phone()
-phone.charge_battery()
+# phone = Phone()
+# phone.charge_battery()
+
+# ----
+
+class Student:
+
+    def __init__(self, name):
+        self.name = name
+
+
+class University:
+
+    def __init__(self, student):
+        self.student = student
+
+    def show_student(self):
+        print(self.student.name)
+
+
+# student1 = Student('Amir')
+# university = University(student1)
+# university.show_student()
+
+# ----
+
+class Teacher:
+
+    def __init__(self, name):
+        self.name = name
+
+
+class School:
+    def __init__(self, teacher):
+        self.teacher = teacher
+
+    def show_teacher(self):
+        print(self.teacher.name)
+
+
+teacher1 = Teacher('Ali')
+school = School(teacher1)
+school.show_teacher()
+
+
+
+
+
+
+
+
+
+
 
 
 
