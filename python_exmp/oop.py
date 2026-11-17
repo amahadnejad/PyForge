@@ -686,6 +686,20 @@ class Product:
         return self.price + other.price
 
 
-price1 = 100
-price2 = 250
-print(price1.__add__(price2))
+# price1 = 100
+# price2 = 250
+# print(price1.__add__(price2))
+
+# ----
+
+class Person:
+    def __init__(self, age):
+        self.age = age
+
+    def __eq__(self, other):
+        return self.age == other.age
+
+
+p1 = Person(20)
+p2 = Person(20)
+print(p1 == p2)
