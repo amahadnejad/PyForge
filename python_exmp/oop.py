@@ -630,13 +630,37 @@ class Car:
         return f"Car Brand: {self.brand}"
 
 
-car = Car("BMW")
-print(car)
+# car = Car("BMW")
+# print(car)
+
+# ----
+
+class Team:
+    def __init__(self, players):
+        self.players = players
+
+    def __len__(self):
+        return len(self.players)
 
 
+# team = Team(['Ali', 'Amir', 'Reza'])
+# print(team)
+# print(len(team))
+
+# ----
+
+class Library:
+    def __init__(self, books):
+        self.books = books
+
+    def __len__(self):
+        return len(self.books)
 
 
+# books = Library(['The Hobbit', 'Harry Potter', 'The Lord Of The Rings'])
+# print(len(books))
 
+# ----
 
 
 
