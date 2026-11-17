@@ -602,18 +602,36 @@ class School:
         print(self.teacher.name)
 
 
-teacher1 = Teacher('Ali')
-school = School(teacher1)
-school.show_teacher()
+# teacher1 = Teacher('Ali')
+# school = School(teacher1)
+# school.show_teacher()
 
 
+# ----
+
+class Book:
+    def __init__(self, title):
+        self.title = title
+
+    def __str__(self):
+        return f"Book Title: {self.title}"
 
 
+# book = Book('Python Programming')
+# print(book)
+
+# ----
+
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+
+    def __str__(self):
+        return f"Car Brand: {self.brand}"
 
 
-
-
-
+car = Car("BMW")
+print(car)
 
 
 
