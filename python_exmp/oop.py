@@ -899,13 +899,32 @@ class BookList:
     def __iter__(self):
         return iter(self.books)
 
-books = BookList()
-for book in books:
-    print(book)
+
+# books = BookList()
+# for book in books:
+#     print(book)
+
+# ----
+
+class NumberCounter:
+    def __init__(self):
+        self.number = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        self.number += 1
+        return self.number
 
 
+counter = NumberCounter()
 
+# print(next(counter))
+# print(next(counter))
+# print(next(counter))
 
+# ----
 
 
 
