@@ -700,6 +700,30 @@ class Person:
         return self.age == other.age
 
 
-p1 = Person(20)
-p2 = Person(20)
-print(p1 == p2)
+# p1 = Person(20)
+# p2 = Person(20)
+# print(p1 == p2)
+
+# ----
+
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    def __repr__(self):
+        return f'{self.title}: {self.author}'
+
+
+book = Book('The Hobbit', 'Jrr Tolkien')
+print(book)
+print(repr(book))
+
+
+
+
+
+
+
+
+
