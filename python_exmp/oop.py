@@ -738,11 +738,21 @@ class Student:
 
 # ----
 
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    def __le__(self, other):
+        return self.price <= other.price
 
 
+p1 = Product('Phone', 1250)
+p2 = Product('Laptop', 2510)
 
-
-
+print(p1.__le__(p2))
+print(p1 <= p2)
+# ----
 
 
 
