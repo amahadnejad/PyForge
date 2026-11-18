@@ -827,11 +827,24 @@ class Book:
         return self.books[item]
 
 
-books = ['Hobbit', 'LOTR', "Harry Potter"]
-print(books[0])
-print(books[1])
+# books = ['Hobbit', 'LOTR', "Harry Potter"]
+# print(books[0])
+# print(books[1])
+
+# ----
+
+class ProductList:
+    def __init__(self):
+        self.items = [10, 20, 30]
+
+    def __setitem__(self, key, value):
+        self.items[key] = value
 
 
+products = ProductList()
+print(products.items)
+products[0] = 500
+print(products.items)
 
 
 
