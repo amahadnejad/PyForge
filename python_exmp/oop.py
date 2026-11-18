@@ -841,14 +841,25 @@ class ProductList:
         self.items[key] = value
 
 
-products = ProductList()
-print(products.items)
-products[0] = 500
-print(products.items)
+# products = ProductList()
+# print(products.items)
+# products[0] = 500
+# print(products.items)
+
+# ----
+
+class StudentList:
+    def __init__(self):
+        self.students = ['Amir', 'Reza', 'Ali']
+
+    def __delitem__(self, key):
+        del self.students[key]
 
 
-
-
+students = StudentList()
+print(students.students)
+del students[0]
+print(students.students)
 
 
 
