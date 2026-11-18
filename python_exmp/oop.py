@@ -871,10 +871,41 @@ class ProductList:
         return item in self.products
 
 
-products = ProductList()
+# products = ProductList()
 
-print("Laptop" in products)
-print('Monitor' in products)
+# print("Laptop" in products)
+# print('Monitor' in products)
+
+# ----
+
+class ProductList:
+    def __init__(self):
+        self.products = ['Mouse', 'Laptop', 'Keyboard']
+
+    def __iter__(self):
+        return iter(self.products)
+
+# p1 = ProductList()
+
+# for item in p1:
+#     print(item)
+
+# ----
+
+class BookList:
+    def __init__(self):
+        self.books = ['Python', 'Django', 'Flask']
+
+    def __iter__(self):
+        return iter(self.books)
+
+books = BookList()
+for book in books:
+    print(book)
+
+
+
+
 
 
 
