@@ -747,12 +747,38 @@ class Product:
         return self.price <= other.price
 
 
-p1 = Product('Phone', 1250)
-p2 = Product('Laptop', 2510)
+# p1 = Product('Phone', 1250)
+# p2 = Product('Laptop', 2510)
 
-print(p1.__le__(p2))
-print(p1 <= p2)
+# print(p1.__le__(p2))
+# print(p1 <= p2)
+
 # ----
+
+class Car:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+    def __gt__(self, other):
+        return self.price > other.price
+
+
+car1 = Car('BMW', 120000)
+car2 = Car('Audi', 105000)
+
+print(car1.__gt__(car2))
+print(car1 > car2)
+
+
+
+
+
+
+
+
+
+
 
 
 
