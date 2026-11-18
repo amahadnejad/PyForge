@@ -715,9 +715,50 @@ class Book:
         return f'{self.title}: {self.author}'
 
 
-book = Book('The Hobbit', 'Jrr Tolkien')
-print(book)
-print(repr(book))
+# book = Book('The Hobbit', 'Jrr Tolkien')
+# print(book)
+# print(repr(book))
+
+# ----
+
+class Student:
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+
+    def __lt__(self, other):
+        return self.score < other.score
+
+
+# student1 = Student('Amir', 78)
+# student2 = Student('Reza', 94)
+
+# print(student1 < student2) # Old Way
+# print(student1.__lt__(student2))
+
+# ----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
