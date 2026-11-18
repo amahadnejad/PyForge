@@ -805,10 +805,31 @@ class Product:
 
 # ----
 
+class Student:
+    def __init__(self, students):
+        self.students = students
+
+    def __getitem__(self, item):
+        return self.students[item]
 
 
+# students = ['Amir', 'Ali', 'Reza']
+# print(students[0])
+# print(students[1])
+
+# ----
+
+class Book:
+    def __init__(self, books):
+        self.books = books
+
+    def __getitem__(self, item):
+        return self.books[item]
 
 
+books = ['Hobbit', 'LOTR', "Harry Potter"]
+print(books[0])
+print(books[1])
 
 
 
