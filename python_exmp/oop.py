@@ -788,6 +788,37 @@ class Player:
 
 # ----
 
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    def ___ne__(self, other):
+        return self.price != other.price
+
+
+# p1 = Product('Mac', 1000)
+# p2 = Product('John', 950)
+
+# print(p1.___ne__(p2))
+# print(p1 != p2)
+
+# ----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
