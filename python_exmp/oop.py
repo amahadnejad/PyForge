@@ -764,11 +764,29 @@ class Car:
         return self.price > other.price
 
 
-car1 = Car('BMW', 120000)
-car2 = Car('Audi', 105000)
+# car1 = Car('BMW', 120000)
+# car2 = Car('Audi', 105000)
 
-print(car1.__gt__(car2))
-print(car1 > car2)
+# print(car1.__gt__(car2))
+# print(car1 > car2)
+
+# ----
+
+class Player:
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+
+    def __ge__(self, other):
+        return self.score >= other.score
+
+
+# p1 = Player('John', 54)
+# p2 = Player('Mac', 61)
+
+# print(p1 >= p2)
+
+# ----
 
 
 
