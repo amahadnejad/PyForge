@@ -856,10 +856,34 @@ class StudentList:
         del self.students[key]
 
 
-students = StudentList()
-print(students.students)
-del students[0]
-print(students.students)
+# students = StudentList()
+# print(students.students)
+# del students[0]
+# print(students.students)
+
+# ----
+
+class ProductList:
+    def __init__(self):
+        self.products = ['Mouse', 'Laptop', 'Keyboard']
+
+    def __contains__(self, item):
+        return item in self.products
+
+
+products = ProductList()
+
+print("Laptop" in products)
+print('Monitor' in products)
+
+
+
+
+
+
+
+
+
 
 
 
