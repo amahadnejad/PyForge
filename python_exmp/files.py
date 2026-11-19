@@ -12,8 +12,27 @@
 
 # ----
 
-file = open('files/data.txt', 'r')
-content = file.read()
+# file = open('files/data.txt', 'r')
+# content = file.read()
+# print(content)
+# file.close()
 
-print(content)
-file.close()
+# ----
+
+# with open('files/data.txt', 'r') as file:
+#     content = file.read()
+#     print(content)
+
+# ----
+
+with open('files/data.txt', 'r') as file:
+    content = file.read()
+    print(content)
+
+
+
+
+
+
+
+
