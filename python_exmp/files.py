@@ -43,10 +43,16 @@
 
 # ----
 
-with open('files/data.txt', 'r') as file:
-    for line in file:
-        print(line)
+# with open('files/data.txt', 'r') as file:
+#     for line in file:
+#         print(line)
 
+# ----
+
+# with open('files/data.txt', 'a') as file:
+#     file.write('\nFlask')
+
+# ----
 
 
 
