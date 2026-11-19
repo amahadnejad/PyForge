@@ -980,8 +980,39 @@ class Calculator:
         return self.num1 + self.num2
 
 
-cal = Calculator(10, 20)
-print(cal())   # cal.__call()
+# cal = Calculator(10, 20)
+# print(cal())   # cal.__call()
+
+# ----
+
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    def __format__(self, format_spec):
+        if format_spec == 'title':
+            return f"{self.title}"
+
+        elif format_spec == 'author':
+            return self.author
+
+        return self.title
+
+
+book = Book('Hobbit', 'Tolkein')
+
+print(format(book, 'title'))
+print(format(book, 'author'))
+
+
+
+
+
+
+
+
+
 
 
 
