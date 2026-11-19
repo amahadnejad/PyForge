@@ -1000,15 +1000,42 @@ class Book:
         return self.title
 
 
-book = Book('Hobbit', 'Tolkein')
+# book = Book('Hobbit', 'Tolkein')
 
-print(format(book, 'title'))
-print(format(book, 'author'))
+# print(format(book, 'title'))
+# print(format(book, 'author'))
+
+# ----
+
+class Book:
+    def __init__(self, title):
+        self.title = title
+
+    def __hash__(self):
+        return hash(self.title)
 
 
+# book1 = Book("Hobbit")
+# book2 = Book('Harry Potter')
+#
+# print(hash(book1))
+# print(hash(book2))
+
+# ----
+
+class Product:
+    def __init__(self, name):
+        self.name = name
+
+    def __hash__(self):
+        return hash(self.name)
 
 
+p1 = Product('Phone')
+p2 = Product('PC')
 
+print(hash(p1))
+print(hash(p2))
 
 
 
