@@ -926,13 +926,34 @@ counter = NumberCounter()
 
 # ----
 
+class Team:
+    def __init__(self, members):
+        self.members = members
+
+    def __contains__(self, name):
+        return name in self.members
 
 
+# team = Team(['Amir', 'Ali', 'Reza'])
+
+# print('Amir' in team)
+# print('sara' in team)
+
+# ----
+
+class Library:
+    def __init__(self, books):
+        self.books = books
+
+    def __contains__(self, item):
+        return  item in self.books
 
 
+library = Library(['Hobbit', 'Harry Potter', 'LOTR'])
+print('Hobbit' in library)
+print('The Wizard' in library)
 
-
-
+# ----
 
 
 
