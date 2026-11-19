@@ -25,11 +25,15 @@
 
 # ----
 
-with open('files/data.txt', 'r') as file:
-    content = file.read()
-    print(content)
+# with open('files/data.txt', 'r') as file:
+#     content = file.read()
+#     print(content)
 
+# ----
 
+# with open('files/data.txt', 'r') as file:
+#     line1 = file.readline()
+#     print(line1)
 
 
 
