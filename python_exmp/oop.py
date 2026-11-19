@@ -1031,16 +1031,27 @@ class Product:
         return hash(self.name)
 
 
-p1 = Product('Phone')
-p2 = Product('PC')
+# p1 = Product('Phone')
+# p2 = Product('PC')
 
-print(hash(p1))
-print(hash(p2))
+# print(hash(p1))
+# print(hash(p2))
+
+# ----
+
+class BankAccount:
+    def __init__(self, owner, balance):
+        self.owner = owner
+        self.balance = balance
+
+    def __sub__(self, other):
+        return self.balance - other.balance
 
 
+ba1 = BankAccount('Ali', 5000)
+ba2 = BankAccount('Reza', 2000)
 
-
-
+print(ba1 - ba2)
 
 
 
