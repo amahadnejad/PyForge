@@ -1048,13 +1048,23 @@ class BankAccount:
         return self.balance - other.balance
 
 
-ba1 = BankAccount('Ali', 5000)
-ba2 = BankAccount('Reza', 2000)
+# ba1 = BankAccount('Ali', 5000)
+# ba2 = BankAccount('Reza', 2000)
+# print(ba1 - ba2)
 
-print(ba1 - ba2)
+# ----
+
+class Book:
+    def __init__(self, title, price):
+        self.title = title
+        self.price = price
+
+    def __mul__(self, quantity):
+        return self.price * quantity
 
 
+b1 = Book('LOTR', 65)
+print(b1 * 3)
 
-
-
+# ----
 
