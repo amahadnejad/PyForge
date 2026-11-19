@@ -37,11 +37,15 @@
 
 # ----
 
+# with open('files/data.txt', 'r') as file:
+#     content = file.readlines()
+#     print(content)
+
+# ----
+
 with open('files/data.txt', 'r') as file:
-    content = file.readlines()
-    print(content)
-
-
+    for line in file:
+        print(line)
 
 
 
