@@ -950,38 +950,26 @@ class Library:
 
 
 library = Library(['Hobbit', 'Harry Potter', 'LOTR'])
-print('Hobbit' in library)
-print('The Wizard' in library)
+# print('Hobbit' in library)
+# print('The Wizard' in library)
 
 # ----
 
+class User:
+    def __init__(self, username, is_active):
+        self.username = username
+        self.is_active = is_active
+
+    def __bool__(self):
+        return self.is_active
 
 
+# user1 = User('Amir', True)
+# user2 = User('Ali', False)
+# print(bool(user1))
+# print(bool(user2))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# ----
 
 
 
