@@ -96,3 +96,12 @@
 
 # print(file.closed)
 
+# ----
+
+# with open("files/data.txt", 'r') as file:
+#     file.seek(9)
+#     content = file.read(7)
+#     print(content)
+
+# ----
+
