@@ -134,13 +134,17 @@
 
 # ----
 
-import os
+# import os
+# print(os.path.exists('files/example.txt'))
 
-print(os.path.exists('files/example.txt'))
+# ----
 
+# import os
 
+# os.remove('files/example.txt')
+# print(os.path.exists('files/example.txt'))
 
-
+# ----
 
 
 
