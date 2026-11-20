@@ -152,8 +152,11 @@
 
 # ----
 
+# import os
 
+# os.rmdir('files/new_folder')
 
+# ----
 
 
 
