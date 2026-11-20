@@ -1,3 +1,1 @@
-Python
-JavaScripts
-Django
+Learning Python Is Fun

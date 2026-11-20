@@ -82,14 +82,17 @@
 
 # ----
 
-languages = ['Python\n', 'JavaScripts\n', 'Django\n']
+# languages = ['Python\n', 'JavaScripts\n', 'Django\n']
 
-with open("files/data.txt", 'w') as file:
-    file.writelines(languages)
+# with open("files/data.txt", 'w') as file:
+#     file.writelines(languages)
 
+# ----
 
+# with open('files/data.txt', 'w') as file:
+#     file.write('Learning Python Is Fun')
+#     file.flush()
+#     print(file.closed)
 
-
-
-
+# print(file.closed)
 
