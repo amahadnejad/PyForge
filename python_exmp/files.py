@@ -124,9 +124,10 @@
 
 # ----
 
+# with open('files/data.txt', 'r') as file:
+#     print(file.seekable())
 
-
-
+# ----
 
 
 
