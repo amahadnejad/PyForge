@@ -83,7 +83,7 @@
 # ----
 
 # languages = ['Python\n', 'JavaScripts\n', 'Django\n']
-
+#
 # with open("files/data.txt", 'w') as file:
 #     file.writelines(languages)
 
@@ -114,8 +114,25 @@
 
 # ----
 
-with open('files/data.txt', 'r') as file:
-    print(file.readable())
+# with open('files/data.txt', 'r') as file:
+#     print(file.readable())
+
+# ----
+
+# with open('files/data.txt', 'a') as file:
+#     print(file.writable())
+
+# ----
+
+
+
+
+
+
+
+
+
+
 
 
 
