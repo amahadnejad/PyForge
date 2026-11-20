@@ -129,10 +129,14 @@
 
 # ----
 
-with open('files/example.txt', 'x') as file:
-    file.write('Hello Python!')
+# with open('files/example.txt', 'x') as file:
+#     file.write('Hello Python!')
 
+# ----
 
+import os
+
+print(os.path.exists('files/example.txt'))
 
 
 
