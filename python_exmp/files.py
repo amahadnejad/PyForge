@@ -76,12 +76,16 @@
 
 # ----
 
-with open('files/data.txt', 'r') as file:
-    content = file.readlines()
-    print(content)
+# with open('files/data.txt', 'r') as file:
+#     content = file.readlines()
+#     print(content)
 
+# ----
 
+languages = ['Python\n', 'JavaScripts\n', 'Django\n']
 
+with open("files/data.txt", 'w') as file:
+    file.writelines(languages)
 
 
 

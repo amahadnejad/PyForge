@@ -1,6 +1,3 @@
 Python
-Django
-Git
-HTML
 JavaScripts
-Flask
+Django
