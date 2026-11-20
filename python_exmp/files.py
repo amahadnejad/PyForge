@@ -68,15 +68,17 @@
 
 # ----
 
-with open('files/data.txt', 'r') as file:
-    content = file.readline()
-    print(content)
-    content = file.readline()
-    print(content)
+# with open('files/data.txt', 'r') as file:
+#     content = file.readline()
+#     print(content)
+#     content = file.readline()
+#     print(content)
 
 # ----
 
-
+with open('files/data.txt', 'r') as file:
+    content = file.readlines()
+    print(content)
 
 
 
