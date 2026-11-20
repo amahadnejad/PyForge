@@ -129,8 +129,8 @@
 
 # ----
 
-
-
+with open('files/example.txt', 'x') as file:
+    file.write('Hello Python!')
 
 
 
