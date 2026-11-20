@@ -54,12 +54,17 @@
 
 # ----
 
-with open('files/data.txt') as file:
-    file.seek(6)
-    content = file.read()
-    print(content)
+# with open('files/data.txt') as file:
+#     file.seek(6)
+#     content = file.read()
+#     print(content)
 
+# ----
 
+with open('files/data.txt', 'r') as file:
+    print(file.tell())
+    file.read(10)
+    print(file.tell())
 
 
 
