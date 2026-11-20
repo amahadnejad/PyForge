@@ -105,13 +105,18 @@
 
 # ----
 
-with open('files/data.txt', 'r+') as file:
-    file.seek(7)
-    file.truncate()
+# with open('files/data.txt', 'r+') as file:
+#     file.seek(7)
+#     file.truncate()
+#     file.seek(0)
+#     content = file.read()
+#     print(content)
 
-    file.seek(0)
-    content = file.read()
-    print(content)
+# ----
+
+with open('files/data.txt', 'r') as file:
+    print(file.readable())
+
 
 
 
