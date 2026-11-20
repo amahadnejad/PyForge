@@ -61,12 +61,20 @@
 
 # ----
 
+# with open('files/data.txt', 'r') as file:
+#     print(file.tell())
+#     file.read(10)
+#     print(file.tell())
+
+# ----
+
 with open('files/data.txt', 'r') as file:
-    print(file.tell())
-    file.read(10)
-    print(file.tell())
+    content = file.readline()
+    print(content)
+    content = file.readline()
+    print(content)
 
-
+# ----
 
 
 
