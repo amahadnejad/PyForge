@@ -54,6 +54,23 @@
 
 # ----
 
+with open('files/data.txt') as file:
+    file.seek(6)
+    content = file.read()
+    print(content)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
