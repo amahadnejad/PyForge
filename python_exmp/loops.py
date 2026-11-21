@@ -46,15 +46,24 @@
 
 # ----
 
+# total = 0
+# for i in range(1, 21):
+#     if i % 2 == 0:
+#         total += i
+# print(total)
+
+# ----
 
 total = 0
-for i in range(1, 21):
-    if i % 2 == 0:
+i = 1
+
+while i <= 20:
+    if i % 2 != 0:
         total += i
+
+    i += 1
+
 print(total)
-
-
-
 
 
 
