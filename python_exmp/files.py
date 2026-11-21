@@ -252,10 +252,14 @@ from datetime import datetime
 
 # ----
 
-directory = os.path.dirname('files/pyforge.txt')
-print(directory)
+# directory = os.path.dirname('files/pyforge.txt')
+# print(directory)
 
+# ----
 
+filename, extension = os.path.splitext('files/pyforge.txt')
 
+print(filename)
+print(extension)
 
 
