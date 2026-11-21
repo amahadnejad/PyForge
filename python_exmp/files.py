@@ -242,7 +242,8 @@ from datetime import datetime
 
 # ----
 
-
+path = os.path.abspath('files/pyforge.txt')
+print(path)
 
 
 
