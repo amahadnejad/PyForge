@@ -212,10 +212,15 @@ from datetime import datetime
 
 # ----
 
-accessed = os.path.getatime('files/pyforge.txt')
-print(accessed)
+# accessed = os.path.getatime('files/pyforge.txt')
+# print(accessed)
 
+# ----
 
+# modified = os.path.getmtime('files/pyforge.txt')
+# print(modified)
+
+# ----
 
 
 
