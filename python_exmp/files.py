@@ -232,7 +232,24 @@ from datetime import datetime
 
 # ----
 
-result = os.path.isfile("files/pyforge.txt")
-print(result)
+# result = os.path.isfile("files/pyforge.txt")
+# print(result)
 
 # ----
+
+# result = os.path.isdir('files')
+# print(result)
+
+# ----
+
+
+
+
+
+
+
+
+
+
+
+
