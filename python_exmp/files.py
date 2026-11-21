@@ -268,3 +268,35 @@ from datetime import datetime
 # print(modified)
 
 # ----
+
+# filename = os.path.basename('files/pyforge.txt')
+# print(filename)
+
+# ----
+
+# Last Example
+
+# result = os.path.isfile('files/pyforge.txt')
+# print(result)
+# print(os.path.isdir('files'))
+# print(os.path.getsize('files/pyforge.txt'))
+
+# with open('files/pyforge.txt', 'r') as file:
+#     result = file.read()
+#     print(result)
+
+# with open('files/pyforge.txt', 'a') as file:
+#     file.write('File Manager Project')
+
+
+# try:
+#     with open('files/pyforge.txt', 'r') as file:
+#         result = file.read()
+#
+# except FileNotFoundError:
+#     print("Error! File Nor Found!")
+
+
+# if os.path.exists('files/pyforge.txt'):
+#     os.remove('files/pyforge.txt')
+#     print("done")
