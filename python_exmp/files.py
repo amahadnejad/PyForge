@@ -222,7 +222,8 @@ from datetime import datetime
 
 # ----
 
-
+created = os.path.getctime('files/pyforge.txt')
+print(created)
 
 
 
