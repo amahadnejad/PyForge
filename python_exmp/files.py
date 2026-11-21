@@ -227,8 +227,12 @@ from datetime import datetime
 
 # ----
 
-size = os.path.getsize('files/pyforge.txt')
-print(size)
+# size = os.path.getsize('files/pyforge.txt')
+# print(size)
 
+# ----
 
+result = os.path.isfile("files/pyforge.txt")
+print(result)
 
+# ----
