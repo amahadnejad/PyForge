@@ -1,6 +1,8 @@
 # Files Handling
 
 import os
+from datetime import datetime
+
 
 # file = open('files/1.txt', 'w')
 # file.write('Hello World!')
@@ -202,14 +204,16 @@ import os
 
 # ----
 
+# created = os.path.getctime('files/pyforge.txt')
+# print(created)
 
+# date = datetime.fromtimestamp(created)
+# print(date)
 
+# ----
 
-
-
-
-
-
+accessed = os.path.getatime('files/pyforge.txt')
+print(accessed)
 
 
 
