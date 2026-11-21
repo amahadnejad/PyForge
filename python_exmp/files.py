@@ -188,6 +188,14 @@
 
 # ----
 
+# import os
+
+# size = os.path.getsize('files/data.txt')
+# print(size)
+
+# ----
+
+
 
 
 
