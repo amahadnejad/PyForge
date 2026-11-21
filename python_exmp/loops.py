@@ -54,8 +54,21 @@
 
 # ----
 
+# total = 0
+# i = 1
+
+# while i <= 20:
+#     if i % 2 != 0:
+#         total += i
+
+#     i += 1
+
+# print(total)
+
+# ----
+
 total = 0
-i = 1
+i = 0
 
 while i <= 20:
     if i % 2 != 0:
