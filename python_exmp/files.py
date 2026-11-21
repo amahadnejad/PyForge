@@ -247,10 +247,13 @@ from datetime import datetime
 
 # ----
 
-filename = os.path.basename('files/pyforge.txt')
-print(filename)
+# filename = os.path.basename('files/pyforge.txt')
+# print(filename)
 
+# ----
 
+directory = os.path.dirname('files/pyforge.txt')
+print(directory)
 
 
 
