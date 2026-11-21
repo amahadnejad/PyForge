@@ -165,8 +165,14 @@
 
 # ----
 
+# import os
 
+# for root, dirs, files in os.walk('files'):
+#     print(f"Root: {root}")
+#     print(f"Dirs: {dirs}")
+#     print(f"Files: {files}")
 
+# ----
 
 
 
