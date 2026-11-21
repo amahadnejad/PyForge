@@ -222,10 +222,13 @@ from datetime import datetime
 
 # ----
 
-created = os.path.getctime('files/pyforge.txt')
-print(created)
+# created = os.path.getctime('files/pyforge.txt')
+# print(created)
 
+# ----
 
+size = os.path.getsize('files/pyforge.txt')
+print(size)
 
 
 
