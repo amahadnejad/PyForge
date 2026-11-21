@@ -257,9 +257,14 @@ from datetime import datetime
 
 # ----
 
-filename, extension = os.path.splitext('files/pyforge.txt')
+# filename, extension = os.path.splitext('files/pyforge.txt')
 
-print(filename)
-print(extension)
+# print(filename)
+# print(extension)
 
+# ----
 
+# modified = os.path.getmtime('files/pyforge.txt')
+# print(modified)
+
+# ----
