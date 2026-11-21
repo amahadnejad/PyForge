@@ -1,5 +1,7 @@
 # Files Handling
 
+import os
+
 # file = open('files/1.txt', 'w')
 # file.write('Hello World!')
 # file.close()
@@ -195,8 +197,10 @@
 
 # ----
 
+# modified = os.path.getmtime('files/pyforge.txt')
+# print(modified)
 
-
+# ----
 
 
 
