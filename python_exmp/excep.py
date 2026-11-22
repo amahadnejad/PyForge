@@ -159,6 +159,17 @@
 
 # ----
 
+try:
+    age = int(input("Enter Your Age: "))
+except ValueError:
+    print("Invalid Number!")
+else:
+    print(f"Your Age Is: {age}")
+
+# ----
+
+
+
 
 
 
