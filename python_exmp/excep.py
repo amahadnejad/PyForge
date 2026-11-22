@@ -195,7 +195,26 @@
 #     raise NegativeNumberError("Negative Number Not Allowed!")
 # else:
 #     print(f'Your Number: {number}')
+
 # ----
+
+# class NegativeNumberError(Exception):
+#     pass
+
+# try:
+#     number = int(input("Enter Number: "))
+#
+#     if number < 0:
+#         raise NegativeNumberError('Negative Error!')
+# except NegativeNumberError as error:
+#     print(error)
+# else:
+#     print(f'Your Number is {number}')
+
+# ----
+
+
+
 
 
 
