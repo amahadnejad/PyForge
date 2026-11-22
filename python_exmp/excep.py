@@ -213,8 +213,12 @@
 
 # ----
 
-
-
+try:
+    number = int(input('Enter a Number: '))
+    result = 100 / number
+    print(result)
+except (ValueError, ZeroDivisionError):
+    print('Invalid Operation!')
 
 
 
