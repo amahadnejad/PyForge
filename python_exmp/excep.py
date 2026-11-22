@@ -128,15 +128,31 @@
 
 # ----
 
-def calculate_age(age):
-    try:
-        if age < 0:
-            raise ValueError("Age Cannot Be Negative!")
-    except ValueError as error:
-        return error
+# def calculate_age(age):
+#     try:
+#         if age < 0:
+#             raise ValueError("Age Cannot Be Negative!")
+#     except ValueError as error:
+#         return error
+
+# print(calculate_age(25))
+
+# ----
+
+try:
+    number = int(input('Enter Your Number: '))
+    print(number)
+except ValueError:
+    print("Cannot Convert To Integer!")
 
 
 
-print(calculate_age(25))
+
+
+
+
+
+
+
 
 
