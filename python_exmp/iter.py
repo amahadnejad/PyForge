@@ -46,14 +46,47 @@
 
 # ----
 
-fruits = ['Apple', 'Banana', 'Coconut']
+# fruits = ['Apple', 'Banana', 'Coconut']
 
-iterator = iter(fruits)
-print(next(iterator))
-print(next(iterator))
-print(next(iterator))
+# iterator = iter(fruits)
+# print(next(iterator))
+# print(next(iterator))
+# print(next(iterator))
 
 # ----
+from collections.abc import Iterator
+
+numbers = [10, 20, 30]
+
+iterator = iter(numbers)
+
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
+
+print(isinstance(iterator, Iterator))
+print(type(iterator))
+print(type(numbers))
+print(isinstance(numbers, list))
+
+# ----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
