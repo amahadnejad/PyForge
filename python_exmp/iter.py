@@ -21,6 +21,21 @@
 
 # ----
 
+# colors = ['Red', 'Green', 'Blue']
+# my_iterator = iter(colors)
+
+# try:
+#     print(next(my_iterator))
+#     print(next(my_iterator))
+#     print(next(my_iterator))
+#     print(next(my_iterator))
+# except StopIteration:
+#     print("Iterator Is Finished!")
+
+# ----
+
+
+
 
 
 
