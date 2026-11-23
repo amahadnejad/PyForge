@@ -107,18 +107,35 @@ from collections.abc import Iterator
 
 # ----
 
-student = {
-    'name': 'Amir',
-    'age': 25,
-    'language': 'Persian',
-}
+# student = {
+#     'name': 'Amir',
+#     'age': 25,
+#     'language': 'Persian',
+# }
 
-iterator = iter(student.items())
+# iterator = iter(student.items())
 
-for item in iterator:
-    print(item)
+# for item in iterator:
+#     print(item)
 
 # ----
+
+# Generators
+
+
+def count_number():
+    yield 10
+    yield 20
+    yield 30
+
+
+for number in count_number():
+    print(number)
+
+
+
+
+
 
 
 
