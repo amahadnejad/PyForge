@@ -213,17 +213,25 @@
 
 # ----
 
-try:
-    number = int(input('Enter a Number: '))
-    result = 100 / number
-    print(result)
-except (ValueError, ZeroDivisionError):
-    print('Invalid Operation!')
+# try:
+#     number = int(input('Enter a Number: '))
+#     result = 100 / number
+#     print(result)
+# except (ValueError, ZeroDivisionError):
+#     print('Invalid Operation!')
 
+# ----
 
+# try:
+#     number = int(input('Enter a Number: '))
+#     if number < 0:
+#         raise ValueError("Number Cannot Be Negative!")
+#     else:
+#         print(number)
+# except ValueError:
+#     print("Error!: Number Cannot Be Negative")
 
-
-
+# ----
 
 
 
