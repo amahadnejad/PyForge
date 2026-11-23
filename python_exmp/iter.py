@@ -123,14 +123,38 @@ from collections.abc import Iterator
 # Generators
 
 
-def count_number():
-    yield 10
-    yield 20
-    yield 30
+# def count_number():
+#     yield 10
+#     yield 20
+#     yield 30
 
 
-for number in count_number():
+# for number in count_number():
+#     print(number)
+
+# ----
+
+# def my_gen():
+#     for number in range(1, 6):
+#         yield number
+
+
+# for item in my_gen():
+#     print(item)
+
+# ----
+
+
+def even_number():
+    for i in range(1, 11):
+        if i % 2 == 0:
+            yield i
+
+
+for number in even_number():
     print(number)
+
+
 
 
 
