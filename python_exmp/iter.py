@@ -145,18 +145,27 @@ from collections.abc import Iterator
 # ----
 
 
-def even_number():
-    for i in range(1, 11):
-        if i % 2 == 0:
-            yield i
+# def even_number():
+#     for i in range(1, 11):
+#         if i % 2 == 0:
+#             yield i
 
 
-for number in even_number():
-    print(number)
+# for number in even_number():
+#     print(number)
+
+# ----
+
+# def high_number():
+#     for i in range(1, 11):
+#         if i > 5:
+#             yield i
 
 
+# for i in high_number():
+#     print(i)
 
-
+# ----
 
 
 
