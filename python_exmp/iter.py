@@ -56,24 +56,29 @@
 # ----
 from collections.abc import Iterator
 
-numbers = [10, 20, 30]
+# numbers = [10, 20, 30]
 
-iterator = iter(numbers)
+# iterator = iter(numbers)
 
-print(next(iterator))
-print(next(iterator))
-print(next(iterator))
+# print(next(iterator))
+# print(next(iterator))
+# print(next(iterator))
 
-print(isinstance(iterator, Iterator))
-print(type(iterator))
-print(type(numbers))
-print(isinstance(numbers, list))
+# print(isinstance(iterator, Iterator))
+# print(type(iterator))
+# print(type(numbers))
+# print(isinstance(numbers, list))
 
 # ----
 
+# colors = ['Red', 'Blue', 'Green']
 
+# iterator = iter(colors)
 
+# for color in iterator:
+#     print(color)
 
+# ----
 
 
 
