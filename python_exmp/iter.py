@@ -107,10 +107,18 @@ from collections.abc import Iterator
 
 # ----
 
+student = {
+    'name': 'Amir',
+    'age': 25,
+    'language': 'Persian',
+}
 
+iterator = iter(student.items())
 
+for item in iterator:
+    print(item)
 
-
+# ----
 
 
 
