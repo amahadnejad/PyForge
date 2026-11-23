@@ -167,6 +167,41 @@ from collections.abc import Iterator
 
 # ----
 
+# def my_gen():
+#     yield 10
+#     yield 20
+#     yield 30
+
+
+# numbers = my_gen()
+
+# print(next(numbers))
+# print(next(numbers))
+# print(next(numbers))
+
+# ----
+
+def my_number():
+    yield 5
+    yield 15
+    yield 25
+
+
+number = my_number()
+print(next(number))
+print(next(number))
+print(next(number))
+
+
+
+
+
+
+
+
+
+
+
 
 
 
