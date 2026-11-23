@@ -233,6 +233,26 @@
 
 # ----
 
+try:
+    number1 = int(input("Enter First Number: "))
+    number2 = int(input("Enter Second Number: "))
+    if number2 == 0:
+        raise ZeroDivisionError("Cannot Divide By Zero!")
+
+    print(f"Result: {number1 / number2}")
+
+except ValueError:
+    print("Invalid Number!")
+
+except ZeroDivisionError:
+    print("Cannot Divide By Zero!")
+
+# ----
+
+
+
+
+
 
 
 
