@@ -89,8 +89,12 @@ from collections.abc import Iterator
 
 # ----
 
+cities = ('Tehran', 'Seattle', 'New York')
 
+iterator = iter(cities)
 
+for city in iterator:
+    print(city)
 
 
 
