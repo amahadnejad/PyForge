@@ -34,6 +34,17 @@
 
 # ----
 
+# languages = ['Python', 'java', 'JavaScript', 'PHP']
+# my_iterator = iter(languages)
+
+# while True:
+#     try:
+#         item = next(my_iterator)
+#         print(item)
+#     except StopIteration:
+#         break
+
+# ----
 
 
 
