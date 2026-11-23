@@ -46,8 +46,14 @@
 
 # ----
 
+fruits = ['Apple', 'Banana', 'Coconut']
 
+iterator = iter(fruits)
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
 
+# ----
 
 
 
