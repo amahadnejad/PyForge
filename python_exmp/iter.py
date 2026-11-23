@@ -89,18 +89,23 @@ from collections.abc import Iterator
 
 # ----
 
-cities = ('Tehran', 'Seattle', 'New York')
+# cities = ('Tehran', 'Seattle', 'New York')
 
-iterator = iter(cities)
+# iterator = iter(cities)
 
-for city in iterator:
-    print(city)
+# for city in iterator:
+#     print(city)
 
+# ----
 
+# programming = {'Python', 'Java', 'PHP'}
 
+# iterator = iter(programming)
 
+# for lang in iterator:
+#     print(lang)
 
-
+# ----
 
 
 
