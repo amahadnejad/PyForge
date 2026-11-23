@@ -80,10 +80,14 @@ from collections.abc import Iterator
 
 # ----
 
+# language = 'Django'
 
+# iterator = iter(language)
 
+# for letter in iterator:
+#     print(letter)
 
-
+# ----
 
 
 
