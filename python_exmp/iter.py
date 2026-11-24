@@ -56,6 +56,7 @@
 # ----
 from collections.abc import Iterator
 
+
 # numbers = [10, 20, 30]
 
 # iterator = iter(numbers)
@@ -209,13 +210,19 @@ from collections.abc import Iterator
 
 # ----
 
+def numbers():
+    yield 1
+    yield 2
+    yield 3
 
 
+gen = numbers()
 
+try:
+    print(next(gen))
+    print(next(gen))
+    print(next(gen))
+    print(next(gen))
 
-
-
-
-
-
-
+except StopIteration:
+    print("Iteration Ended!")
