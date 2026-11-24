@@ -210,19 +210,44 @@ from collections.abc import Iterator
 
 # ----
 
-def numbers():
-    yield 1
-    yield 2
-    yield 3
+# def numbers():
+#     yield 1
+#     yield 2
+#     yield 3
 
 
-gen = numbers()
+# gen = numbers()
 
-try:
-    print(next(gen))
-    print(next(gen))
-    print(next(gen))
-    print(next(gen))
+# try:
+#     print(next(gen))
+#     print(next(gen))
+#     print(next(gen))
+#     print(next(gen))
 
-except StopIteration:
-    print("Iteration Ended!")
+# except StopIteration:
+#     print("Iteration Ended!")
+
+# ----
+
+# def even_numbers():
+#     for i in range(2,11):
+#         if i % 2 == 0:
+#             yield i
+
+
+# for i in even_numbers():
+#     print(i)
+
+# ----
+
+
+
+
+
+
+
+
+
+
+
+
