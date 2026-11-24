@@ -241,7 +241,13 @@ from collections.abc import Iterator
 # ----
 
 
+def countdown(number):
+    for i in range(number, 0, -1):
+        yield i
 
+
+for number in countdown(5):
+    print(number)
 
 
 
