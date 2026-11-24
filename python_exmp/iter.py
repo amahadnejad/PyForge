@@ -181,22 +181,33 @@ from collections.abc import Iterator
 
 # ----
 
-def my_number():
-    yield 5
-    yield 15
-    yield 25
+# def my_number():
+#     yield 5
+#     yield 15
+#     yield 25
 
 
-number = my_number()
-print(next(number))
-print(next(number))
-print(next(number))
+# number = my_number()
+# print(next(number))
+# print(next(number))
+# print(next(number))
+
+# ----
+
+# def numbers():
+#     yield 10
+#     yield 20
+#     yield 30
 
 
+# gen = numbers()
 
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
 
-
-
+# ----
 
 
 
