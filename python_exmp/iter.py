@@ -241,13 +241,30 @@ from collections.abc import Iterator
 # ----
 
 
-def countdown(number):
-    for i in range(number, 0, -1):
-        yield i
+# def countdown(number):
+#     for i in range(number, 0, -1):
+#         yield i
 
 
-for number in countdown(5):
-    print(number)
+# for number in countdown(5):
+#     print(number)
+
+# ----
+
+# products = {
+#     'Price': 5000,
+#     'Name': 'Laptop',
+#     'Category': 'Electronics',
+# }
+
+# products_iterator = iter(products.values())
+
+# for item in products_iterator:
+#     print(item)
+
+# ----
+
+
 
 
 
