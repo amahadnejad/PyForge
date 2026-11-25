@@ -264,6 +264,12 @@ from collections.abc import Iterator
 
 # ----
 
+# numbers = [10, 20, 30, 40, 50]
+# number_iterator = iter(numbers)
+# result = list(number_iterator)
+# print(result)
+
+# ----
 
 
 
