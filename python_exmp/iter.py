@@ -65,16 +65,31 @@
 
 # ----
 
-def word_generator(str):
-    for word in str.split():
-        yield word
+# def word_generator(str):
+#     for word in str.split():
+#         yield word
 
 
-gen = word_generator("Python Is A PowerFul Language")
-for j in gen:
-    print(j, end=' - ')
+# gen = word_generator("Python Is A PowerFul Language")
+# for j in gen:
+#     print(j, end=' - ')
 
 # ----
+
+# def number_analyzer(number):
+#     for i in range(1, number + 1):
+#         if i % 2 == 0:
+#             yield i ** 2
+
+
+# gen = number_analyzer(10)
+
+# for j in gen:
+#     print(j, end=' ')
+
+# ----
+
+
 
 
 
