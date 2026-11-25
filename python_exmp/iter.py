@@ -28,21 +28,28 @@
 
 # ----
 
-def filter_numbers(number):
+# def filter_numbers(number):
+#     for i in range(1, number + 1):
+#         if i % 3 == 0:
+#             yield i
+
+
+# gen = filter_numbers(30)
+
+# for j in gen:
+#     print(j, end=' ,')
+
+# ----
+
+def filter_even_numbers(number):
     for i in range(1, number + 1):
-        if i % 3 == 0:
+        if i % 2 == 0 and i % 3 == 0:
             yield i
 
 
-gen = filter_numbers(30)
-
+gen = filter_even_numbers(35)
 for j in gen:
-    print(j, end=' ,')
-
-
-
-
-
+    print(j, end=' ')
 
 
 
