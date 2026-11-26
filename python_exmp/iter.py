@@ -119,18 +119,36 @@
 
 # ----
 
-numbers = [10, 20, 30, 40, 50]
+# numbers = [10, 20, 30, 40, 50]
 
-iterator = iter(numbers)
+# iterator = iter(numbers)
 
-while True:
-    try:
-        print(next(iterator))
-    except StopIteration:
-        break
+# while True:
+#     try:
+#         print(next(iterator))
+#     except StopIteration:
+#         break
 
 
 # ----
+
+# numbers = [5, 10, 15, 20, 25]
+
+# iterator = iter(numbers)
+# total = 0
+
+# while True:
+#     try:
+#         current_number = next(iterator)
+#         total += current_number
+#         print(f'Current Number: {current_number}, total: {total}')
+#     except StopIteration:
+#         break
+
+# ----
+
+
+
 
 
 
