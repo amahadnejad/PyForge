@@ -164,12 +164,22 @@
 
 # ----
 
+numbers = [14, 32, 7, 85, 23, 61, 9]
 
+iterator = iter(numbers)
+largest = next(iterator)
 
+while True:
+    try:
+        number = next(iterator)
 
+        if number > largest:
+            largest = number
 
+    except StopIteration:
+        break
 
-
+print(f"Largest Number: {largest}")
 
 
 
