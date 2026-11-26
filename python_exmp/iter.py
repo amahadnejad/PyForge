@@ -89,19 +89,35 @@
 
 # ----
 
-product = {
-    'name': 'LapTop',
-    'Price': 1500,
-    'brand': 'Asus'
-}
+# product = {
+#     'name': 'LapTop',
+#     'Price': 1500,
+#     'brand': 'Asus'
+# }
 
-iterator = iter(product)
-for key in iterator:
-    print(key)
+# iterator = iter(product)
+# for key in iterator:
+#     print(key)
 
 # ----
 
+# student = {
+#     'name': 'Amir',
+#     'age': 20,
+#     'grade': 18,
+# }
 
+# iterator = iter(student.items())
+
+# while True:
+#     try:
+#         key, value = next(iterator)
+#         print(f"{key}: {value}")
+
+    # except StopIteration:
+    #     break
+
+# ----
 
 
 
