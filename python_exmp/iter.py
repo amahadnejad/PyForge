@@ -184,21 +184,43 @@
 # ----
 
 
-numbers = [45, 12, 78, 3, 29, 61, 8]
+# numbers = [45, 12, 78, 3, 29, 61, 8]
 
-iterator = iter(numbers)
-lowest = next(iterator)
+# iterator = iter(numbers)
+# lowest = next(iterator)
 
-while True:
-    try:
-        number = next(iterator)
-        if number < lowest:
-            lowest = number
+# while True:
+#     try:
+#         number = next(iterator)
+#         if number < lowest:
+#             lowest = number
 
-    except StopIteration:
-        break
+    # except StopIteration:
+    #     break
 
-print(f"Lowest Number: {lowest}")
+# print(f"Lowest Number: {lowest}")
+
+# ----
+
+# numbers = [-5, 12, 0, 8, -3, 15, -1, 7]
+# count = 0
+
+# iterator = iter(numbers)
+
+# while True:
+#     try:
+#         number = next(iterator)
+#         if number > 0:
+#             count += 1
+
+    # except StopIteration:
+    #     break
+
+# print(f"Positive Numbers: {count}")
+
+# ----
+
+
 
 
 
