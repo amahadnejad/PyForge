@@ -256,10 +256,25 @@
 
 # ----
 
+scores = {
+    'Ali': 18,
+    'Sara': 12,
+    'Reza': 20,
+    'Mina': 15,
+}
+passed_students = {}
+iterator = iter(scores.items())
 
+while True:
+    try:
+        name, score = next(iterator)
+        if score >= 15:
+            passed_students[name] = score
 
+    except StopIteration:
+        break
 
-
+print(passed_students)
 
 
 
