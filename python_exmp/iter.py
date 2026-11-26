@@ -220,9 +220,21 @@
 
 # ----
 
+words = ["Python", "AI", "Programming", "Code", "Django", "GIT"]
+counts = 0
 
+iterator = iter(words)
 
+while True:
+    try:
+        word = next(iterator)
+        if len(word) > 4:
+            counts += 1
 
+    except StopIteration:
+        break
+
+print(f"Counts: {counts}")
 
 
 
