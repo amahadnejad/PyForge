@@ -89,6 +89,17 @@
 
 # ----
 
+product = {
+    'name': 'LapTop',
+    'Price': 1500,
+    'brand': 'Asus'
+}
+
+iterator = iter(product)
+for key in iterator:
+    print(key)
+
+# ----
 
 
 
