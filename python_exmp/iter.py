@@ -147,6 +147,28 @@
 
 # ----
 
+# numbers = [3, 8, 12, 5, 17, 20, 9, 14]
+# even_numbers = []
+
+# iterator = iter(numbers)
+
+# while True:
+#     try:
+#         number = next(iterator)
+#         if number % 2 == 0:
+#             even_numbers.append(number)
+#     except StopIteration:
+#         break
+
+# print(even_numbers)
+
+# ----
+
+
+
+
+
+
 
 
 
