@@ -335,17 +335,26 @@
 
 # ----
 
-def count_up(number):
-    for i in range(1, number + 1):
-        yield i
+# def count_up(number):
+#     for i in range(1, number + 1):
+#         yield i
 
 
-gen = count_up(5)
+# gen = count_up(5)
+# for i in gen:
+#     print(i, end=" ")
+
+# ----
+
+def even_numbers(numbers):
+    for number in range(1, numbers + 1):
+        if number % 2 == 0:
+            yield number
+
+
+gen = even_numbers(10)
 for i in gen:
     print(i, end=" ")
-
-
-
 
 
 
