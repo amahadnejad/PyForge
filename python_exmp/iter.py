@@ -307,6 +307,23 @@
 
 # ----
 
+# def even_numbers(numbers):
+#     for number in numbers:
+#         if number % 2 == 0:
+#             yield number
+
+
+# numbers = [2, 5, 8, 11, 14, 17, 20, 23]
+
+# gen = even_numbers(numbers)
+
+# for i in gen:
+#     print(i, end=' ')
+
+# ----
+
+
+
 
 
 
