@@ -36,9 +36,16 @@
 
 # ----
 
+def outer_function():
+    message = "Hello Pyforge!"
+
+    def inner_function():
+        print(message)
+
+    inner_function()
 
 
-
+outer_function()
 
 
 
