@@ -26,6 +26,17 @@
 
 # ----
 
+# def outer_function():
+#     def inner_function():
+#         print("Hello From Inner Function!")
+
+#     inner_function()
+
+# outer_function()
+
+# ----
+
+
 
 
 
