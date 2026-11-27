@@ -256,25 +256,48 @@
 
 # ----
 
-scores = {
-    'Ali': 18,
-    'Sara': 12,
-    'Reza': 20,
-    'Mina': 15,
-}
-passed_students = {}
-iterator = iter(scores.items())
+# scores = {
+#     'Ali': 18,
+#     'Sara': 12,
+#     'Reza': 20,
+#     'Mina': 15,
+# }
+# passed_students = {}
+# iterator = iter(scores.items())
 
-while True:
-    try:
-        name, score = next(iterator)
-        if score >= 15:
-            passed_students[name] = score
+# while True:
+#     try:
+#         name, score = next(iterator)
+#         if score >= 15:
+#             passed_students[name] = score
 
-    except StopIteration:
-        break
+    # except StopIteration:
+    #     break
 
-print(passed_students)
+# print(passed_students)
+
+# ----
+
+# words = ['Python', "Django", 'Java', 'HTML', 'Flask']
+# iterator = iter(words)
+# total_chars = 0
+
+# while True:
+#     try:
+#         word = next(iterator)
+#         total_chars += len(word)
+#     except StopIteration:
+#         break
+
+# print(f"Total Characters: {total_chars}")
+
+# ----
+
+
+
+
+
+
 
 
 
