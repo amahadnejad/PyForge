@@ -322,6 +322,17 @@
 
 # ----
 
+def square(numbers):
+    for number in numbers:
+        yield number ** 2
+
+
+numbers = [2, 3, 4, 5, 6]
+gen = square(numbers)
+
+for i in gen:
+    print(i, end=" ")
+
 
 
 
