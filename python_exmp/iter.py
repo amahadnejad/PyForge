@@ -293,10 +293,19 @@
 
 # ----
 
+# def higher(numbers):
+#     for number in numbers:
+#         if number > 10:
+#             yield number
 
 
+# numbers = [3, 8, 12, 5, 17, 20, 7, 24]
+# gen = higher(numbers)
 
+# for number in gen:
+#     print(number)
 
+# ----
 
 
 
