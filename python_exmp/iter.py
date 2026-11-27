@@ -322,14 +322,25 @@
 
 # ----
 
-def square(numbers):
-    for number in numbers:
-        yield number ** 2
+# def square(numbers):
+#     for number in numbers:
+#         yield number ** 2
 
 
-numbers = [2, 3, 4, 5, 6]
-gen = square(numbers)
+# numbers = [2, 3, 4, 5, 6]
+# gen = square(numbers)
 
+# for i in gen:
+#     print(i, end=" ")
+
+# ----
+
+def count_up(number):
+    for i in range(1, number + 1):
+        yield i
+
+
+gen = count_up(5)
 for i in gen:
     print(i, end=" ")
 
